@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+
+</head>
+<link href="prueba.css" rel="stylesheet" type="text/css">
+<body>
+
+
+<h1 style="text-align:center">INGRESA LOS DATOS</h1>
+  <table width="25%">
+      <tr>
+      <td><label for="usuario">USUARIO </label></td>
+      <td><input type="text" name="usuario" id="usuario"></td>
+    </tr>
+    <tr>
+      <td><label for="contra">Contraseña: </label></td>
+      <td><input type="text" name="contra" id="contra"></td>
+    </tr>
+    <tr>
+      
+      <td colspan="2" align="center">
+            <h3 style="text-align:center">ROL:</h3>
+          <form action="jefe.jsp" method="get">
+          <input type="submit" name="button" id="button" value="JEFE">
+        </form>
+      </td>
+    <br>
+    </tr>
+    <tr>
+        
+      <td colspan="2" align="center">
+          <form action="/controlador/admi.jsp" method="get">
+          <input type="submit" name="button" id="button" value="ADMINISTRADOR">
+        </form>
+      </td>
+    <br>
+    </tr>
+    
+    <tr>
+        
+      <td colspan="2" align="center">
+          <form action="/controlador/prof.jsp" method="get">
+          <input type="submit" name="button" id="button" value="PROFESOR">
+        </form>
+      </td>
+    <br>
+    </tr>
+  </table>
+</body>
+</html>
