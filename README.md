@@ -1,16 +1,27 @@
 README.MD
-Hacer archivos léame atractivos y utilizables. Esta es una breve descripción sobre el contenido de mi proyecto. Este texto tiene que ser simple y explícito.
+
+Desarrolle un Software para gestionar el manejo de materias en el instituto.
+
 
 Contenido
-Este proyecto tiene dos ramas: desarrollar1 y desarrollar2. desarrollar1 contiene las pruebas de los repositorios y desarrollar2 contiene la prueba de los casos de uso.
+Dicho Software estará en capacidad de realizar las siguientes acciones:
 
-Manifestación
-Si quieres ver la demo de este proyecto desplegada, puedes visitar Demo del proyecto
+Crear, editar y borrar una materia.
+Un listado de la Sabana de materias que se ofrecen, por carrera.
+Reporte de materias x profesor. (Los profesores pueden dar clases en diferentes carreras)
+Verificar que un profesor no se le empalme un horario.
+Perfil del usuario (Nombre, correo, teléfono, departamento, 
+El sistema debe de contar con roles para acceso a la información, dependiendo del tipo de usuario:
+          Rol de administrador: Crear carreras, asignar jefes y profesores por carrera.
+          Rol de Jefe de Carrera: Listar, añadir, cargar, borrar y editar Materias; ver la sabana y reportes de 
+                                                  materias por maestro, de la carrera a su cargo.
+                                                  Si el jefe maneja 2 carreras, debe de poder escoger con que carrera trabajar.
+          Rol de profesor: Ver SU reporte de materias.
 
-Cómo clonar
-Si tiene requisitos especiales, debe enumerarlos paso a paso.
 
-este es el primer paso
-Entonces tienes que hacer esto
-Finalmente haz esto
-Markdown tiene enumeración y listas anidadas.
+Herramientas
+*xampp
+*java
+*jsp
+*html
+*tom cat
